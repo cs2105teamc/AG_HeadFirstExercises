@@ -37,7 +37,7 @@ namespace Save_the_Humans
 
         /// <summary>
         /// NavigationHelper is used on each page to aid in navigation and 
-        /// process lifetime management
+        /// process lifetime management this is my comment
         /// </summary>
         public NavigationHelper NavigationHelper
         {
