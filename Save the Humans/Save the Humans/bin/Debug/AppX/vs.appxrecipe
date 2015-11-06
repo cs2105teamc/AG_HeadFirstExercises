@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SUPERMAN</Machine>
+    <WindowsUser>Alessandro</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>565c2afe-306a-463a-9a59-ebae1f947d51</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Alessandro\Documents\GitHub\AG_HeadFirstExercises\Save the Humans\Save the Humans\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>B8785212E6F45AB6C1774F0753957A91B34C96A710ACAD005E5BEF9CC7A1F876</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>565c2afe-306a-463a-9a59-ebae1f947d51_1.0.0.0_neutral__1xsa4dc8b90qj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>565c2afe-306a-463a-9a59-ebae1f947d51_1xsa4dc8b90qj!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>565c2afe-306a-463a-9a59-ebae1f947d51</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Alessandro</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Alessandro\Documents\GitHub\AG_HeadFirstExercises\Save the Humans\Save the Humans\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-06T18:36:52.631</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Alessandro\Documents\GitHub\AG_HeadFirstExercises\Save the Humans\Save the Humans\bin\Debug\Save the Humans.exe">
+      <PackagePath>Save the Humans.exe</PackagePath>
+      <Modified>2015-11-06T20:08:54.126</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alessandro\Documents\GitHub\AG_HeadFirstExercises\Save the Humans\Save the Humans\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T22:05:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alessandro\Documents\GitHub\AG_HeadFirstExercises\Save the Humans\Save the Humans\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T22:05:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alessandro\Documents\GitHub\AG_HeadFirstExercises\Save the Humans\Save the Humans\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T22:05:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alessandro\Documents\GitHub\AG_HeadFirstExercises\Save the Humans\Save the Humans\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T22:05:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alessandro\Documents\GitHub\AG_HeadFirstExercises\Save the Humans\Save the Humans\bin\Debug\Save the Humans.xr.xml">
+      <PackagePath>Save the Humans.xr.xml</PackagePath>
+      <Modified>2015-11-06T18:36:48.232</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alessandro\Documents\GitHub\AG_HeadFirstExercises\Save the Humans\Save the Humans\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-11-06T18:36:48.421</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alessandro\Documents\GitHub\AG_HeadFirstExercises\Save the Humans\Save the Humans\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-11-06T20:08:53.775</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alessandro\Documents\GitHub\AG_HeadFirstExercises\Save the Humans\Save the Humans\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-11-06T18:36:51.132</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
