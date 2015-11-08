@@ -28,7 +28,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Alessandro\Documents\GitHub\AG_HeadFirstExercises\Save the Humans\Save the Humans\bin\Debug\Save the Humans.exe">
       <PackagePath>Save the Humans.exe</PackagePath>
-      <Modified>2015-11-06T20:08:54.126</Modified>
+      <Modified>2015-11-06T20:48:20.018</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alessandro\Documents\GitHub\AG_HeadFirstExercises\Save the Humans\Save the Humans\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
@@ -52,7 +52,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alessandro\Documents\GitHub\AG_HeadFirstExercises\Save the Humans\Save the Humans\bin\Debug\Save the Humans.xr.xml">
       <PackagePath>Save the Humans.xr.xml</PackagePath>
-      <Modified>2015-11-06T18:36:48.232</Modified>
+      <Modified>2015-11-06T20:48:19.354</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alessandro\Documents\GitHub\AG_HeadFirstExercises\Save the Humans\Save the Humans\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
@@ -60,7 +60,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alessandro\Documents\GitHub\AG_HeadFirstExercises\Save the Humans\Save the Humans\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-11-06T20:08:53.775</Modified>
+      <Modified>2015-11-06T20:48:19.495</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alessandro\Documents\GitHub\AG_HeadFirstExercises\Save the Humans\Save the Humans\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>

@@ -41,7 +41,7 @@
         </Grid.RowDefinitions>
 
         <!-- Back button and page title -->
-        <Grid Grid.ColumnSpan="3">
+        <Grid x:Name="grid" Grid.ColumnSpan="3">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="120"/>
                 <ColumnDefinition Width="*"/>
@@ -58,7 +58,7 @@
         <StackPanel Grid.Column="2" Orientation="Vertical" Grid.Row="2">
             <TextBlock x:Name="textBlock" HorizontalAlignment="Center" VerticalAlignment="Center"  TextWrapping="Wrap" Text="AVOID THESE" Style="{StaticResource SubheaderTextBlockStyle}"/>
 
-            <ContentControl Content="ContentControl" VerticalAlignment="Center" HorizontalAlignment="Center" Template="{StaticResource EnemyTemplate}"/>
+            <ContentControl Content="ContentControl" VerticalAlignment="Center" HorizontalAlignment="Center" Template="{StaticResource EnemyTemplate}" Background="Red"/>
             <Ellipse x:Name="EnemyTemplate" Fill="Red" Height="100" Stroke="Black" Width="100"/>
         </StackPanel>
         <Button x:ConnectionId='1' x:Name="startButton" Content="Start!" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="-3.938,3.947" Grid.Row="2"                          />
@@ -73,12 +73,12 @@
                     <GradientStop Color="#FF2CAA07" Offset="0.993"/>
                 </LinearGradientBrush>
             </Canvas.Background>
-            <StackPanel x:Name="human" Orientation="Vertical">
+            <StackPanel x:ConnectionId='2' x:Name="human" Orientation="Vertical"                                      >
                 <Ellipse Fill="#FFF4F4F5" Height="10" Stroke="Black" Width="10"/>
                 <Rectangle Fill="#FFF4F4F5" Height="25" Stroke="Black" Width="10"/>
             </StackPanel>
             <TextBlock x:Name="gameOverText" Canvas.Left="220" TextWrapping="Wrap" Text="Game Over" Canvas.Top="160" FontStyle="Italic" FontWeight="Bold" FontSize="133.333"/>
-            <Rectangle x:Name="target" Fill="#FFF0DB0A" Height="50" Canvas.Left="749.939" Stroke="Black" Canvas.Top="122.096" Width="50" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Rectangle x:ConnectionId='3' x:Name="target" Fill="#FFF0DB0A" Height="50" Canvas.Left="749.939" Stroke="Black" Canvas.Top="122.096" Width="50" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto"                                       >
                 <Rectangle.RenderTransform>
                     <CompositeTransform Rotation="45"/>
                 </Rectangle.RenderTransform>
